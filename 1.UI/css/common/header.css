@@ -1,0 +1,80 @@
+.header {
+    width: calc(100% - 221px);
+    height: 60px;
+    float: left;
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    position: relative;
+}
+
+.header .header-left, .header-right {
+    display: flex;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.text-left {
+    margin: auto 0;
+    display: flex;
+}
+.text-left .dropdown{
+    display: flex;
+}
+
+.text-left .dropdown-text {
+    line-height: 60px;
+    padding-left: 24px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.text-left .dropdown-icon{
+    width: 15px;
+    height: 15px;
+    background: url(/content/icon/btn-down.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 23px
+;
+
+}
+
+.text-right {
+    display: flex;
+    position: absolute;
+    right: 0px;
+}
+
+.text-right .icon-bell {
+    width: 30px;
+    height: 30px;
+    background: url(/content/icon/bell.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 16px 16px;
+}
+
+.text-right .icon-default {
+    width: 30px;
+    height: 30px;
+    background: url('/content/icon/avatar-default.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto 0;
+    padding-right: 16px;
+}
+
+.text-right .text-name-user {
+    line-height: 60px;
+    font-weight: bold;
+    padding-right: 8px;
+}
+
+.text-right .icon-option {
+    width: 30px;
+    height: 30px;
+    background: url(/content/icon/option.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 16px 16px;
+}
